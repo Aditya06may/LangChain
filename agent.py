@@ -31,7 +31,7 @@ from langchain_community.document_loaders import (
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Configuration
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "sk-or-your-api-key-here")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 MODEL_NAME = "openrouter/free"
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 FAISS_INDEX_DIR = "faiss_index"

@@ -6,16 +6,3 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints
-
-# LangChain DB
-faiss_index/
-*.pkl
-faiss_store.pkl
-
-# Data
-extracted_data/
-*.zip
-*.pdf
-*.xlsx
-*.csv
-*.docx
